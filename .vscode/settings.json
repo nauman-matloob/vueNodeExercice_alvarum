@@ -1,0 +1,44 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "i18n-ally.pathMatcher": "{locale}.json",
+    "i18n-ally.enabledParsers": ["json"],
+    "i18n-ally.localesPaths": "frontend/src/locales",
+    "i18n-ally.keystyle": "nested",
+    "i18n-ally.enabledFrameworks": ["vue"],
+    "i18n-ally.editor.preferEditor": true,
+    "i18n-ally.displayLanguage": "en",
+    "i18n-ally.sourceLanguage": "en",
+    "i18n-ally.keysInUse": ["$vuetify.*", "errors.*"],
+    "search.exclude": {
+      "**/dist": true
+    },
+    "files.exclude": {
+      "**/.project": true
+    },
+    "vue.autoInsert.dotValue": true,
+    "editor.suggest.insertMode": "replace",
+    "iconify.delimiters": [":"],
+    "iconify.inplace": false,
+    "editor.snippetSuggestions": "none",
+    "editor.suggest.localityBonus": true,
+    "editor.suggest.selectionMode": "always",
+    "html.autoCreateQuotes": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "javascript.suggest.names": true,
+    "explorer.autoRevealExclude": {
+      "**/node_modules": false
+    },
+    "files.watcherExclude": {
+      "**/dist/**": true,
+      "**/node_modules/*/**": false,
+    }
+  }
+  

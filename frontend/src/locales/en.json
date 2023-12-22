@@ -1,0 +1,96 @@
+{
+  "$vuetify": {
+    "open": "Open",
+    "badge": "Badge",
+    "calendar": {
+      "moreEvents": "{0} more"
+    },
+    "carousel": {
+      "ariaLabel": {
+        "delimiter": "Carousel slide {0} of {1}"
+      },
+      "next": "Next visual",
+      "prev": "Previous visual"
+    },
+    "close": "Close",
+    "dataFooter": {
+      "firstPage": "First page",
+      "itemsPerPageAll": "All",
+      "itemsPerPageText": "Items per page:",
+      "lastPage": "Last page",
+      "nextPage": "Next page",
+      "pageText": "{0}-{1} of {2}",
+      "prevPage": "Previous page"
+    },
+    "dataIterator": {
+      "loadingText": "Loading items...",
+      "noResultsText": "No matching records found"
+    },
+    "dataTable": {
+      "ariaLabel": {
+        "activateAscending": "Activate to sort ascending.",
+        "activateDescending": "Activate to sort descending.",
+        "activateNone": "Activate to remove sorting.",
+        "sortAscending": "Sorted ascending.",
+        "sortDescending": "Sorted descending.",
+        "sortNone": "Not sorted."
+      },
+      "itemsPerPageText": "Rows per page:",
+      "sortBy": "Sort by"
+    },
+    "datePicker": {
+      "itemsSelected": "{0} selected"
+    },
+    "fileInput": {
+      "counter": "{0} files",
+      "counterSize": "{0} files ({1} in total)"
+    },
+    "noDataText": "No data available",
+    "timePicker": {
+      "am": "AM",
+      "pm": "PM"
+    }
+  },
+  "errors": {
+    "server": {
+      "notreachable": "Server is not reachable. Retry in a few seconds.",
+      "technical": "Oops, something went wrong",
+      "unauthorized": "You have been disconnected",
+      "unexpected": "Oops, something went wrong",
+      "validation": "Validation failed, please check the form for errors",
+      "wrongCredentials": "Incorrect credentials, please check your login and password"
+    },
+    "validator": {
+      "futureDate": "Date must be in future",
+      "isEmail": "Must be a valid email address",
+      "isHexColor": "Must be a valid color in hex format",
+      "isLength": "Must contains between {min} and {max} characters",
+      "isNotificationsFormCorrect": "Et least one must be selected",
+      "isUrl": "Must be a valid url",
+      "maxLength": "Too long. Max length is {0} characters",
+      "min": "Minimum value is {0}",
+      "minLength": "Must be at least {0} characters long",
+      "nonNegative": "Value must be greater or equal 0",
+      "notUniqueSlugMessage": "This slug already exist",
+      "passwordMatch": "Password and confirm password must match",
+      "required": "Required"
+    }
+  },
+  "login": {
+    "incorrect_code": "The code you entered is incorrect, please try again.",
+    "phone": "Enter your phone number",
+    "phone_not_found": "Phone number not found",
+    "lastname": "Enter your last name",
+    "lastname_not_found": "Phone number not found",
+    "sendCode": "Send Code",
+    "submit": "Login",
+    "title": "Access your participant space",
+    "code": "Enter received code"
+  },
+  "notFound": {
+    "backHome": "Get back home",
+    "message": "It seems the page you're looking for does not exists or has been moved.",
+    "title": "Oops! Page not found"
+  },
+  "logout": "Logout"
+}

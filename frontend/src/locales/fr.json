@@ -1,0 +1,99 @@
+{
+  "$vuetify": {
+    "open": "Ouvert",
+    "badge": "Badge",
+    "calendar": {
+      "moreEvents": "{0} plus"
+    },
+    "carousel": {
+      "ariaLabel": {
+        "delimiter": "Ecran {0} sur {1}"
+      },
+      "next": "Suivant",
+      "prev": "Précédent"
+    },
+    "close": "Fermer",
+    "dataFooter": {
+      "firstPage": "Première page",
+      "itemsPerPageAll": "Tous",
+      "itemsPerPageText": "Éléments par page :",
+      "lastPage": "Dernière page",
+      "nextPage": "Suivante",
+      "pageText": "{0} à {1} sur {2}",
+      "prevPage": "Précédente"
+    },
+    "dataIterator": {
+      "loadingText": "Chargement...",
+      "noResultsText": "Aucun résultat"
+    },
+    "dataTable": {
+      "ariaLabel": {
+        "activateAscending": "Cliquez pour trier par ordre croissant.",
+        "activateDescending": "Cliquez pour trier par ordre décroissant",
+        "activateNone": "Cliquez pour enlever le tri.",
+        "sortAscending": "Tri croissant",
+        "sortDescending": "Tri décroissant",
+        "sortNone": "Aucun tri"
+      },
+      "itemsPerPageText": "Eléments par page :",
+      "sortBy": "Trier par"
+    },
+    "datePicker": {
+      "itemsSelected": "{0} sélectionnés"
+    },
+    "fileInput": {
+      "counter": "{0} fichiers",
+      "counterSize": "{0} fichiers ({1} au total)"
+    },
+    "noDataText": "Aucune donnée",
+    "timePicker": {
+      "am": "AM",
+      "pm": "PM"
+    }
+  },
+  "errors": {
+    "server": {
+      "notreachable": "Le serveur n'est pas accessible. Réessayez dans quelques secondes.",
+      "technical": "Oups, nous avons rencontré une erreur technique",
+      "unauthorized": "Vous avez été déconnecté",
+      "unexpected": "Oups, nous avons rencontré une erreur inattendue",
+      "validation": "La vérification du formulaire à échoué, merci de vérifier les valeurs sélectionnées",
+      "wrongCredentials": "Identifiants incorrects, merci de vérifier votre login et mot de passe"
+    },
+    "validator": {
+      "futureDate": "La date doit être future",
+      "isEmail": "Doit être une adresse e-mail valide",
+      "isHexColor": "Doit être au format hexadécimal",
+      "isLength": "Doit contenir entre {min} et {max} caractères",
+      "isNotificationsFormCorrect": "Au moins un déclencheur doit être sélectionné",
+      "isUrl": "Doit être une adresse valide",
+      "maxLength": "Trop long. Max {0} caractères",
+      "min": "Doit être au moins {0}",
+      "minLength": "Doit contenir au moins {0} caractères",
+      "nonNegative": "Doit être supérieur ou égal à 0",
+      "notUniqueSlugMessage": "Cet identifiant existe déjà",
+      "passwordMatch": "Le mot de passe et sa confirmation doivent correspondre",
+      "required": "Requis"
+    }
+  },
+  "login": {
+    "incorrect_code": "Le code renseigné est incorrect, merci de réessayer.",
+    "incorrect_eventId": "Le numéro d'inscription renseigné est incorrect, merci de réessayer.",
+    "phone": "Saisissez votre numéro de téléphone",
+    "phone_not_found": "Ce numéro de téléphone nous est inconnu. Merci de vérifier la saisie.",
+    "lastname": "Saisissez votre nom de famille",
+    "lastname_not_found": "Ce nom de famille nous est inconnu. Merci de vérifier la saisie.",
+    "sendCode": "Envoyer le code",
+    "sendLastname": "Continuer",
+    "submit": "Se connecter",
+    "title": "Accédez à votre espace participant",
+    "code": "Saississez le code reçu",
+    "registration": "Saississez le numéro d'inscription"
+  },
+  "notFound": {
+    "backHome": "Retourner à l'accueil",
+    "message": "Il semble que la page que vous cherchez n'existe pas ou a été déplacée.",
+    "title": "Oups ! Impossible de trouver cette page"
+  },
+  "logout": "Se déconnecter"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "event-app-backend",
+  "version": "1.0.0",
+  "description": "Backend of Event App",
+  "main": "server.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-jwt": "^6.0.0",
+    "glob": "^7.1.6",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.35.1",
+    "sqlite3": "^5.1.6",
+    "umzug": "^3.5.0-0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.4",
+    "dotenv": "^8.6.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.10.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8",
+    "typescript": "^5.3.2"
+  },
+  "scripts": {
+    "start": "nodemon -r dotenv/config server.js --quiet --colors dotenv_config_path=.env.local",
+    "serve": "nodemon server.js --quiet",
+    "lint": "tsc -p jsconfig.json && eslint .",
+    "fix": "eslint . --fix && prettier --write .",
+    "format": "prettier --write ."
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
