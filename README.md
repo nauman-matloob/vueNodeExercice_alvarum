@@ -55,6 +55,15 @@ Some test data are inserted at first run in order to ease testing:
 - John Doe (06 12 34 56 78)
 - Jean Dupont (06 00 00 00 00)
 
+## Login with last name (NEW)
+Users can now login using their last name through the following workflow:
+
+- User enter his last name
+- A unique registratioo number (For this exercie **the registration id is printed to the server console**)
+- User enter registratioo number
+
+The registration id is randomly generated on the start of the server
+
 ## Tech stacks
 
 - **Backend**: NodeJS + ExpressJS + [Sequelize](https://sequelize.org/) + SQLite
